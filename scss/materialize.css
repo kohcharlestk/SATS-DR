@@ -27,6 +27,15 @@ body {
 .text-btn-1 {
   font-size: 1.2rem;
   font-weight: 400;
+  padding: 0 10px;
+}
+
+.m-r {
+  margin-right: 6px !important;
+}
+
+.mb-1 {
+  margin-bottom: 6px !important;
 }
 
 .fw-bold {
@@ -112,6 +121,13 @@ body {
   line-height: 1.72rem;
 }
 
+.title-dat-2 {
+  font-size: 1.3rem;
+  color: #37474f;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+
 .title-ref {
   font-size: 0.7rem;
   color: #df6464;
@@ -152,6 +168,10 @@ body {
 
 .icon-sz {
   font-size: 2.2rem;
+}
+
+.chevron {
+  vertical-align: text-top !important;
 }
 
 .air {
@@ -8221,7 +8241,7 @@ textarea.materialize-textarea.validate + label {
   display: block;
   width: 100%;
   height: auto;
-  padding: 18px 0px !important;
+  padding: 18px 18px !important;
   margin-top: 18px;
   margin-bottom: 12px;
   border-top: 0.4rem solid #009688;
@@ -8231,7 +8251,7 @@ textarea.materialize-textarea.validate + label {
   display: block;
   width: 100%;
   height: auto;
-  padding: 18px 0px !important;
+  padding: 18px 18px !important;
   margin-top: 18px;
   margin-bottom: 12px;
   border-top: 6px solid #9e3039;
