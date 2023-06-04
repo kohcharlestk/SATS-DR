@@ -284,7 +284,7 @@
           </div>
           <div class="col s8">
             <div class="title-dat-w">PICK UP </div>
-            <div class="title-dat-1">Blk 54, Jalan Budok Crescent</div>
+            <div class="title-dat-1">460B SENGKANG WEST WAY FERNVALE GLADES</div>
             <div class="title-dat-1" id="postal_h_4">S443671</div>
           </div>
           <div class="col s2">
@@ -380,8 +380,10 @@
           <div class="col s2"></div>
           <div class="col s10">
             <div class="title-dat-w mb-1">DROP OFF </div>
-            <a class="air btn m-r" href="#"><span class="text-btn-1">ICC 2</span></a>
-            <a class="air btn" href="#"><span class="text-btn-1">ICC 1</span></a>
+
+            <a class="waves-effect waves-teal air btn m-r modal-trigger" href="#modal-dropoff-icc2" id="icc-btn-3"><span class="text-btn-1">ICC 2</span></a>
+
+            <a class="waves-effect waves-teal air btn modal-trigger" href="#modal-dropoff-icc1" id="icc-btn-4"><span class="text-btn-1">ICC 1</span></a>
   
           </div>
         </div>
@@ -391,8 +393,8 @@
       <div class="row mt-2">
         <div class="col s2"></div>
         <div class="col s6">
-          <div class="title-dat"><a class="waves-effect waves-light btn-large air modal-trigger" id="btn-completed-1"
-              href="#modal-completed-1">COMPLETED</a> </div>
+          <div class="title-dat"><a class="waves-effect waves-light btn-large air modal-trigger" id="btn-completed-2"
+              href="#modal-completed-2">COMPLETED</a> </div>
         </div>
         <div class="col s4">
         </div>
@@ -402,25 +404,45 @@
 
 
 
-  <!-- small button modal starts -->
+  <!-- Modal starts -->
 
-<!-- Modal / pick up LCC 1-->
+<!-- Modal / pick up ICC 1-->
     <div id="modal-pickup-lcc1" class="modal">
       <div class="modal-content">
-        <p class="center h1">Arrived at LCC 1 Pickup</p>
+        <p class="center h1">Arrived at ICC 1 Pickup</p>
       </div>
       <div class="modal-content center">
         <a href="#!" class="modal-close waves-effect waves-red btn-large teal" id="btn-lcc1-up-confirm-1">CONFIRM</a>
       </div>
     </div>
 
-    <!-- Modal / pick up LCC 2-->
+    <!-- Modal / pick up ICC 2-->
     <div id="modal-pickup-lcc2" class="modal">
       <div class="modal-content">
-        <p class="center h1">Arrived at LCC 2 Pickup</p>
+        <p class="center h1">Arrived at ICC 2 Pickup</p>
       </div>
       <div class="modal-content center">
         <a href="#!" class="modal-close waves-effect waves-red btn-large teal" id="btn-lcc2-up-confirm-1">CONFIRM</a>
+      </div>
+    </div>
+
+    <!-- Modal / drop off ICC 1-->
+    <div id="modal-dropoff-icc2" class="modal">
+      <div class="modal-content">
+        <p class="center h1">Arrived at ICC 2 Drop Off</p>
+      </div>
+      <div class="modal-content center">
+        <a href="#!" class="modal-close waves-effect waves-red btn-large teal" id="btn-icc2-drop-confirm-1">CONFIRM</a>
+      </div>
+    </div>
+
+    <!-- Modal / drop-off ICC 2-->
+    <div id="modal-dropoff-icc1" class="modal">
+      <div class="modal-content">
+        <p class="center h1">Arrived at ICC 1 Drop Off</p>
+      </div>
+      <div class="modal-content center">
+        <a href="#!" class="modal-close waves-effect waves-red btn-large teal" id="btn-icc1-drop-confirm-1">CONFIRM</a>
       </div>
     </div>
 
